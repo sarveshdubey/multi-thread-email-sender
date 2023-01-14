@@ -1,0 +1,104 @@
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 95, in get
+    start_threads()
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 71, in start_threads
+    absolute_value = int(length_of_list / threads)
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+WARNING:django.request:Bad Request: /api/
+ERROR:django.request:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 99, in get
+    start_threads()
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 75, in start_threads
+    absolute_value = int(length_of_list / threads)
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\HP\Desktop\workspace\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 100, in get
+    start_threads()
+  File "C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py", line 76, in start_threads
+    absolute_value = int(length_of_list / threads)
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+WARNING:django.request:Bad Request: /api/
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\api\views.py changed, reloading.
+INFO:api.views:Email was Successfully sent to 7223931152sarvesh@gmail.com by (<Email_Thread(Thread-9, started daemon 15852)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to peterheadleytimesheet@gmail.com by (<Email_Thread(Thread-4, started daemon 24924)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to 7223931152sarvesh@gmail.com by (<Email_Thread(Thread-3, started daemon 27396)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to sarvesh.d@solulab.com by (<Email_Thread(Thread-8, started daemon 2076)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to sarveshdubey@credicxo.com by (<Email_Thread(Thread-5, started daemon 27416)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to 7223931152sarvesh@gmail.com by (<Email_Thread(Thread-6, started daemon 12460)>, <property object at 0x0000012B2E345B20>)
+INFO:api.views:Email was Successfully sent to peterheadleytimesheet@gmail.com by (<Email_Thread(Thread-7, started daemon 17060)>, <property object at 0x0000012B2E345B20>)
+INFO:django.utils.autoreload:C:\Users\HP\Desktop\workspace\seize_the_ads\seize_the_ads\settings.py changed, reloading.
